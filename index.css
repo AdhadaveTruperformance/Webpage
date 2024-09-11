@@ -1,0 +1,298 @@
+
+section.heading-section
+{
+    background: var(--Legal-Black, #000);
+    height: 100px;
+
+}
+.back
+{
+    /* background-color: red; */
+    background-image: url(images/image\ 7.jpg);
+    height: 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar
+{
+  
+}
+ul.navbar-nav li.nav-item a.nav-link
+{
+  color: var(--84-white, rgba(255, 255, 255, 0.84));
+  text-align: center;
+  font-feature-settings: 'salt' on, 'liga' off, 'clig' off;
+  font-family: Heebo;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 10px; /* 142.857% */
+  margin: 10px;
+}
+section.hero-section
+ {
+    background-image: url("images/business-partners-sitting-cafe 1.jpg");
+  }
+.heading{
+color: var(--Innocence-White, #FFF);
+text-align: center;
+font-family: "Playfair Display";
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.2px;
+  }
+
+  section.description
+  {
+    background: var(--Fair-Trial-Gray, #F2F2F2);
+  }
+.para h2
+{
+  color: var(--Justice-Beige, #B89161);
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.3px;
+  text-transform: uppercase;
+}
+.para h1
+{
+  color: var(--Legal-Black, #000);
+  font-family: "Playfair Display";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.32px;
+}
+.para p
+{
+  color: var(--light-text-for-white-bg, #727272);
+  font-family: Heebo;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+  .results-section h2 {
+    color: var(--Legal-Black, #000);
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: "Playfair Display";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 64px; /* 133.333% */
+  }
+  .results-section h3
+  {
+    color: var(--Legal-Black, #000);
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: "Playfair Display";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .results-section p
+  {
+    color: var(--light-text-for-white-bg, #727272);
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: Heebo;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    
+  }
+  .results-section .btn-gold
+   {
+    border-radius: 2px;
+    background: var(--Justice-Beige, #B89161);
+    box-shadow: 0px 0px 0px 0px rgba(66, 133, 244, 0.30);
+    color: var(--Innocence-White, #FFF);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 20px 39px;
+    margin-top: 20px;
+  }
+  .bord
+  {
+    border-right: 2px solid #B89161;
+  }
+
+  section.contact
+  {
+    background: var(--Legal-Black, #000);
+  }
+.contact-header h3
+  {
+    color: var(--Justice-Beige, #B89161);
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 2.3px;
+    text-transform: uppercase;
+  }
+  .contact-header h5
+  {
+    color: var(--Innocence-White, #FFF);
+    font-family: "Playfair Display";
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .contact-header p
+  {
+    color: var(--84-white, rgba(255, 255, 255, 0.84));
+    font-family: Heebo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .contact-header h1
+  {
+    color: var(--Justice-Beige, #B89161);
+    font-family: "Playfair Display";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 130% */
+  }
+  .address 
+  {
+    color: var(--Innocence-White, #FFF);
+    font-family: Heebo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+  }
+
+  .form-group
+  {
+    display: flex;
+    margin: 15px;
+    gap: 20px;
+    color: var(--light-text-for-white-bg, #727272);
+    font-family: Heebo;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px; /* 171.429% */
+    border-radius: 2px;
+    /* border: 1px solid #434343; */
+  }
+  .form-g
+  {
+    margin: 15px;
+    color: var(--light-text-for-white-bg, #727272);
+    font-family: Heebo;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px; /* 171.429% */ 
+  }
+  button
+  {
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 2px;
+    background: var(--Justice-Beige, #B89161);
+    box-shadow: 0px 0px 0px 0px rgba(66, 133, 244, 0.30);
+    padding: 10px;
+    color: var(--Innocence-White, #FFF);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 112.5% */
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+  }
+  .test h3
+  {
+    color: var(--Justice-Beige, #B89161);
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2.56px;
+    text-transform: uppercase;
+  }
+  .test h1
+  {
+    color: var(--Legal-Black, #000);
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: "Playfair Display";
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .test p
+  {
+    color: var(--Legal-Black, #000);
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: Heebo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .div h3
+  {
+    color: var(--Legal-Black, #000);
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: "Playfair Display";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 50px;
+  }
+  .foot
+  {
+    background: var(--Justice-Beige, #B89161);
+    
+  }
+  .foot img
+  {
+    width: 30px;
+    height: 30px;
+  }
+  .foot h3
+  {
+    color: var(--Innocence-White, #FFF);
+    font-family: "Playfair Display";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .foot p
+  {
+    color: var(--Innocence-White, #FFF);
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
